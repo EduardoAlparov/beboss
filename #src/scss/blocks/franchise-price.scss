@@ -1,0 +1,56 @@
+
+.franchise-price {
+	margin-bottom: 32px;
+	// .franchise-price__body
+	&__body {
+		padding: 24px;
+		background: rgba(30, 160, 30, .1); 
+		border-radius: 16px;
+		@media (max-width: $md3+px) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	// .franchise-price__title
+	&__title {
+		margin-bottom: 24px;
+	}
+	// .franchise-price__list
+	&__list {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 24px;
+		p {
+			margin: 0;
+		}
+	}
+	// .franchise-price__item
+	&__item {
+		display: flex;
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		@media (max-width: $md3+px) {
+			flex-direction: column;
+		}
+	}
+	// .franchise-price__key
+	&__key {
+		color: rgba(0, 0, 0, 0.52);
+		flex: 0 0 200px;
+		margin-right: 24px;
+		@media (max-width: $md3+px) {
+			flex: 0 1 auto;
+		}
+	}
+
+	&__divider {
+		width: 100%;
+	}
+	// .franchise-price__query
+	&__query {
+		padding-top: 24px;
+	}
+}

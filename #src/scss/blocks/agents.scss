@@ -1,0 +1,32 @@
+.agent {
+	// .agent__body
+	&__body {
+		display: flex;
+		align-items: center;
+	}
+	// .agent__avatar
+	&__avatar {
+		margin-right: 8px;
+	}
+	// .agent__avatar-image
+	&__avatar-image {
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	// .agent__info
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+	// .agent__name
+	&__name {
+		text-transform: capitalize;
+		font-weight: 500;
+	}
+	// .agent__post
+	&__post {
+		font-weight: 500;
+	}
+}

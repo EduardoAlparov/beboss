@@ -1,0 +1,31 @@
+.aside {
+	width: 100%;
+	// .aside__body
+	&__body {
+		width: 100%;
+	}
+	// .aside__title
+	&__title {
+		padding-bottom: 16px;
+	}
+
+	// .aside__list
+	&__list {
+		padding-top: 16px;
+	}
+	// .aside__item
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 16px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	// .aside__value
+	&__value {
+		font-weight: bold;
+	}
+}

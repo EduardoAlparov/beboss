@@ -1,0 +1,19 @@
+.franchise-description {
+	margin-bottom: 32px;
+	// .franchise-description__title
+	&__title {
+		padding-bottom: 16px;
+	}
+	// .franchise-description__desc
+	&__desc {
+		padding: 16px 0;
+		line-height: 36px;
+		span {
+			display: block;
+		}
+	}
+	// .franchise-description__link
+	&__link {
+		margin-bottom: 32px;
+	}
+}

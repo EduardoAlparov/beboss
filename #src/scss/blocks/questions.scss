@@ -1,0 +1,29 @@
+.questions {
+	// .questions__title
+	&__title {
+		font-weight: bold;
+		margin-bottom: 16px;
+	}
+	// .questions__list
+	&__list {
+		display: flex;
+		flex-direction: column;
+	}
+	// .questions__item
+	&__item {
+		display: flex;
+		align-items: baseline;
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	// .questions__icon
+	&__icon {
+		margin-right: 8px;
+		.icon-green {
+			fill: #0D870D;
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+.franchise-link {
+	// .franchise-link__body
+	&__body {
+		display: flex;
+	}
+	// .franchise-link__text
+	&__text {
+		margin-right: 8px;
+		font-weight: bold;
+	}
+}

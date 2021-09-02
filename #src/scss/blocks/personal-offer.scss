@@ -1,0 +1,111 @@
+.personal-offer {
+    margin-top: -198px;
+    margin-bottom: 40px;
+    @media (max-width: $md3 + px) {
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  // .personal-offer__container
+  &__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+
+    @media (max-width: $md3 + px) {
+      flex-direction: column;
+    }
+  }
+
+  // .personal-offer__franchise
+
+  &__franchise {
+    display: flex;
+    align-items: center;
+    @media (max-width: $md3 + px) {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+  }
+
+  // .personal-offer__franchise-img
+
+  &__franchise-img {
+    margin-right: 32px;
+    @media (max-width: $md3 + px) {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  // .personal-offer__img-container
+
+  &__img-container {
+    width: 152px;
+    height: 115px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  // .personal-offer__info
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__deal{
+    @media (max-width: $md3+px) {
+      padding-top: 24px;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__agent {
+    margin-bottom: 16px;
+  }
+  // .personal-offer__info-title
+
+  &__info-title {
+    margin-bottom: 8px;
+    @media (max-width: $md3 + px) {
+      text-align: center;
+    }
+  }
+  // .personal-offer__info-text
+  &__info-text {
+    margin-bottom: 8px;
+    @media (max-width: $md3 + px) {
+      text-align: center;
+    }
+  }
+  // .personal-offer__info-link
+
+  &__info-link{
+    a {
+      @media (max-width: $md3 + px) {
+        justify-content: center;
+      }
+    }
+  }
+
+  // .personal-offer__button-block
+  &__button-block {
+  }
+
+  // .personal-offer__buton
+
+  &__button {
+    display: block;
+    padding: 13px 35px;
+    width: 100%;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

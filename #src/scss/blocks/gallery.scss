@@ -1,0 +1,30 @@
+
+.gallery {
+	// .gallery__list
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		@media (max-width: $md4+px) {
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	}
+	// .gallery__item
+	&__item {
+		@media (max-width: $md2+px) {
+			// width: calc(100% / 2 - 10px);
+			padding: 4px;
+		}
+	}
+	// .gallery__image-conteiner
+	&__image-conteiner {
+		width: 196px;
+		height: 196px;
+		border-radius: 16px;
+		@media (max-width: $md3+px) {
+			width: 167px;
+			height: 167px;
+		}
+	}
+}

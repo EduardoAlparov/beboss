@@ -1,0 +1,29 @@
+.main-info {
+	// .main-info__section
+	&__section {
+		padding: 117px 0 25px 0;
+		@media (max-width: $md3 + px) {
+			padding: 25px 0 ;
+		}
+	}
+
+	// .main-info__container
+	&__container {
+		display: flex;
+		}
+	// .main-info__content
+	&__content {
+		flex: 0 1 100%;
+		margin-right: 30px;
+		@media (max-width: $md2+px) {
+			margin-right: 0;
+		}
+	}
+	// .main-info__aside
+	&__aside {
+		flex: 1 0 256px;
+		@media (max-width: $md2+px) {
+			display: none;
+		}
+	}
+}
